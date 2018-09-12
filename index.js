@@ -25,9 +25,11 @@ const facts = [
 ];
 
 function johnLennonFacts(array) {
+  var i = 0;
   while (facts.length < 4) {
-    facts.push(`${facts[0]}!!!`);
-    ;
+    facts.push(`${facts[i]}!!!`);
+    i++;
+    
   }
   return facts;
 }
