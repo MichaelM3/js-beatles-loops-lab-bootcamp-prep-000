@@ -30,6 +30,6 @@ function johnLennonFacts(array) {
   while (facts.length < 4) {
     newFacts = facts.push(`${facts[i]}!!!`);
     i++;
+    return newFacts;
   }
-  return newFacts;
 }
