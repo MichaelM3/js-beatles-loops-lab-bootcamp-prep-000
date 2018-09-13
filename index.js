@@ -33,5 +33,5 @@ function iLoveTheBeatles(n) {
   do {
     newArray.push(`${'I love the Beatles!'}`)
     return "I love the Beatles!"
-  } while (i > 15)
+  } while (i < 15)
 }
