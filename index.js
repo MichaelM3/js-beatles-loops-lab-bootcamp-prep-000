@@ -35,6 +35,7 @@ function incrementValue() {
 function iLoveTheBeatles(n) {
   var newArray = [];
   do {
+    newArray.push(`${'I love the Beatles!'}`)
     return "I love the Beatles!"
   } while (i > 15)
 }
