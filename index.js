@@ -32,6 +32,7 @@ function iLoveTheBeatles(n) {
   do {
     newArray.push(`${'I love the Beatles!'}`);
     n++;
-    return newArray;
    }while (n < 15);
+
+  return newArray
 }
