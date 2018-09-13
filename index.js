@@ -29,6 +29,6 @@ function johnLennonFacts(array) {
   while (facts.length < 4) {
     var newFacts = facts.push(`${facts[i]}!!!`);
     i++;
-    return newFacts;
   }
+  return newFacts;
 }
