@@ -28,10 +28,10 @@ function johnLennonFacts(array) {
 }
 
 function iLoveTheBeatles(n) {
-  var i = 0
+  var i = 0;
   var newArray = [];
   do {
-    newArray.push(`${'I love the Beatles!'}`)
-    return "I love the Beatles!"
-  } while (i < 15)
+    newArray.push(`${'I love the Beatles!'}`);
+    return "I love the Beatles!";
+  } while (i < 15);
 }
