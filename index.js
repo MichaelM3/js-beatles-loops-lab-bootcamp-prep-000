@@ -27,12 +27,8 @@ function johnLennonFacts(array) {
   return newFacts;
 }
 
-var i = 0
-function incrementValue() {
-  i = i + 1
-}
-
 function iLoveTheBeatles(n) {
+  var i = 0
   var newArray = [];
   do {
     newArray.push(`${'I love the Beatles!'}`)
